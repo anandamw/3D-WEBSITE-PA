@@ -19,7 +19,7 @@ class App {
     this.showroom = new Showroom(this.scene);
     this.gui = new Gui(this.scene, this.load, this.showroom);
 
-    await this.load.loadSample("./models/gltf/cctv.glb");
+    await this.load.loadSample("./models/gltf/sensor.glb");
     this.gui.addGUI(this.load.currentModel);
 
     this.init();
