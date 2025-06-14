@@ -172,7 +172,7 @@ export default class Gui {
       .add(this.sampleModels, "samples", {
         CCTV: "./models/gltf/cctv.glb",
         Sensor: "./models/gltf/sensor.glb",
-        Jembatan: "./models/gltf/jembatan.glb",
+        // Jembatan: "./models/gltf/jembatan.glb",
       })
       .onChange((value) => {
         let path = value;
